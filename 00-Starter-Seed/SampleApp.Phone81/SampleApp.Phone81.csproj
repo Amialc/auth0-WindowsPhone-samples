@@ -80,7 +80,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\..\source\Auth0Client.Phone\Auth0Client.Phone.csproj">
+    <ProjectReference Include="..\source\Auth0Client.Phone\Auth0Client.Phone.csproj">
       <Project>{53d1f9d1-78fc-424a-9f3f-3b33c2fd1c8d}</Project>
       <Name>Auth0Client.Phone</Name>
     </ProjectReference>
@@ -120,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
