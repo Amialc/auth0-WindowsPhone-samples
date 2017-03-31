@@ -8,7 +8,7 @@ namespace WindowsPhoneSilverlight
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        private Auth0Client auth0Client = new Auth0Client("samples.auth0.com", "BUIJSW9x60sIHBw8Kd9EmCbj8eDIFxDC"); 
+        private Auth0Client auth0Client = new Auth0Client("{DOMAIN}", "{CLIENT_ID}"); 
 
         // Constructor
         public MainPage()
